@@ -1,6 +1,7 @@
 package com.fairlink.core.implementation
 
 import com.fairlink.constants.Constants
+import com.fairlink.core.exception.ColumnNormalizerException
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{col, current_date, date_add, sum}
 
